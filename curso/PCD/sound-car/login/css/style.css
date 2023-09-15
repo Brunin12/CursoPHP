@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#cecdcd, rgb(71, 71, 71));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  min-height: 300px;
+  box-shadow: 0px 0px 20px #bebebe;
+  padding: 40px 20px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.267);
+  padding-bottom: 20px;
+  transition: 500ms;
+}
+h1:hover {
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+  cursor: default;
+}
+
+input {
+  width: 95%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-bottom: 15px;
+  padding-left: 20%;
+}
+
+input:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+input:focus {
+  outline-color: #00c3ff;
+}
+
+.btn-blue {
+  width: 90%;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #00c3ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: 500ms ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+.btn-blue:hover {
+  background-color: #089dca;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.466);
+}
+
+a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: black;
+  transition: 800ms ease;
+}
+
+a:hover {
+  color: #00c3ff;
+}
+
+.link {
+  color: #00c3ff;
+  text-decoration: underline;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  height: 20px;
+  width: 5%;
+  vertical-align: middle;
+  box-shadow: none;
+}
+
+input[type="checkbox"]:hover {
+  box-shadow: none;
+}
+
+label {
+  display: inline-block;
+  width: 85%;
+  font-size: 14px;
+  margin-top: 1px;
+  word-wrap: break-word;
+}
+
+.input-group {
+  width: 90%;
+}
+
+.input-icon {
+  width: 50px;
+  padding-left: 2px;
+  position: absolute;
+  margin-bottom: 15px;
+}
+
+.erro-geral {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  background: #ff0000;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.erro-input {
+  border: 1px solid #ff0000;
+}
+
+.erro-input:hover {
+  box-shadow: 5px 5px 10px #ff000086;
+}
+
+
+.erro {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: 600ms ease;
+}
+
+.erro:hover {
+  color: rgb(255, 0, 8);
+  font-size: 14px;
+}
+
+strong {
+  color: rgb(0, 162, 255);
+}
+
+
+
+#btn {
+  padding: 15px;
+  margin: auto;
+  background-color: #ff0000;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#btn:hover {
+  background-color: #ca0808;
+}

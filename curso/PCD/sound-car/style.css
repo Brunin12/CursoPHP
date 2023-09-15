@@ -1,0 +1,261 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    font-size: 12pt;
+    text-shadow: none;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+form {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid none;
+}
+
+span {
+    cursor: pointer;
+}
+
+details {
+    border: 2px solid black;
+    padding: 10px;
+    font: Arial;
+    text-align: center;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: gray;
+    border-radius: 15px;
+    margin: auto;
+}
+
+details details{
+    background-color: #1922ce;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    font: Arial;
+    border-radius: 15px;
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font: normal 15pt Arial;
+    background-image: linear-gradient(60deg, #020887, #34F6F2 );
+    color: white;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-style: bold;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgb(111, 0, 255), rgb(0, 162, 255));
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.text {
+    font-size: 30px;
+}
+
+h2,h1 {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.container {
+        font-weight: 900;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input{
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.container img{
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+#som {
+    display: flex;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+}
+
+.info {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.info a{
+    transition: 500ms;
+    font: bold 14.5pt Arial;
+    color: #10686e;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px 3px rgba(247, 247, 247, 0.377);
+}
+
+.info a:hover {
+    font: bold 14pt Arial;
+    color: #0defff;
+    text-shadow: 5px 5px 10px rgba(247, 247, 247, 0.479);
+}
+
+.guia {
+    padding: 10px;
+    width: 300px;
+    background-color: #7365c4;
+    font: bold 14pt Arial;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.479);
+}
+
+a {
+    font: bold 14pt Arial;
+    color: #29d8e4;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px #030338;
+    transition: 500ms;
+ }
+
+ a:hover {
+    font: bold 14pt Arial;
+    color: #2fb0b9;
+    text-decoration: none;
+    text-shadow: 10px 8px 12px #030333;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    color: white;
+    margin: 40px;
+    margin-top: 30px;
+    text-align: center;
+ }
+
+ details p {
+    color: white;
+ }
+
+
+.barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: sticky;
+    letter-spacing: 1px;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgb(88, 87, 87);
+    border-radius: 2px;
+    color: rgb(39, 38, 38);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.527);
+    background-image: linear-gradient(130deg, #7365c4, #36b2b6); 
+}
+
+.barra em{
+    color: #00ffc8;
+    letter-spacing: 2px;   
+}
+
+.barra span{
+    color: rgb(0, 245, 255);
+    text-align: center;
+}
+
+#carrinho {
+    height: 100px;
+    width: 100%;
+    color:rgb(0, 0, 0);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.barra p{
+    text-align: left;
+    color:rgb(0, 245, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra a{
+    color: aquamarine;
+    letter-spacing: 2px;  
+    transition: 500ms;
+}
+
+.barra a:hover {
+    font: bold 14pt Arial;
+    color: #2fb0b9;
+    text-decoration: none;
+    text-shadow: 10px 8px 12px #030333;
+ }
+
+.barra audio{
+    display: flex;
+    text-align: end;
+
+}
+

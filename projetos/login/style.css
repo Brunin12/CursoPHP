@@ -1,0 +1,117 @@
+form {
+  padding: 10px;    
+  color: rgb(0, 0, 0);
+  background-color: rgb(231, 230, 228);
+  font-family: system-ui, sans-serif;
+  box-shadow: 0px 0px 10px rgba(26, 25, 25, 0.87);
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12pt;
+  width: 420px;
+  margin: 80px auto;
+}
+
+form input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border: none;
+  transition: 300ms;
+}
+
+form input.invalido {
+  border: 1px solid rgb(255, 58, 58);
+  box-shadow: 5px 5px 10px rgba(185, 27, 27, 0.678);
+}
+
+form input:hover {
+  height: 30px;
+  width: 305px;
+  box-shadow: 5px 5px 10px black;
+  background-color: rgb(238, 234, 234);
+}
+
+form input.invalido:hover {
+  border: 4px solid rgb(255, 58, 58);
+  box-shadow: 5px 5px 10px rgba(224, 15, 15, 0.678);
+  border-radius: 10px;
+}
+
+form .erro {
+  position: relative;
+  color: red;
+  text-shadow: 3px 3px 6px rgba(189, 9, 9, 0.712);
+  font-weight: 700;
+  cursor: default;
+  text-align: left;
+}
+
+form button {
+  height: 45px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgb(19, 209, 19);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border: none;
+  transition: 500ms;
+  margin-bottom: 25px;
+  font-size: 12pt;
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+}
+
+form button:hover {
+  height: 45px;
+  width: 305px;
+  background-color: hsl(120, 100%, 54%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
+  color: black;
+  cursor: pointer;
+}
+
+form h1 {
+  background-color: yellow;
+  width: 250px;
+  border-radius: 20px;
+  margin: auto;
+  transition: 500ms;
+}
+
+form h1:hover {
+  cursor: pointer;
+  width: 260px;
+  box-shadow: 5px 5px 10px black;
+}
+
+form h3 {
+  cursor: default;
+  text-align: left;
+  font-size: 16pt;
+  margin-left: 40px;
+  transition: 500ms;
+}
+
+form h2 {
+  cursor: default;
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(90deg, rgb(90, 86, 86), gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(90deg, blue, blueviolet);
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+
